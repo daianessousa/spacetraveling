@@ -1,1 +1,20 @@
-// TODO
+.banner{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5rem;
+
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+.postContainer{
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}

@@ -1,1 +1,46 @@
-// TODO
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  h1 {
+    font-size: 1.75rem;
+    color: var(--color-heading);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 0.875rem;
+    color: var(--color-info);
+    font-weight: 400;
+  }
+
+  .infoContent {
+    display: flex;
+    gap: 1.5rem;
+
+    span {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+
+  button {
+    color: var(--color-highlight);
+    background-color: transparent;
+    border: none;
+    font-size: 1.125rem;
+    margin-top: 4rem;
+    display: flex;
+    font-weight: 600;
+  }
+
+}
